@@ -1,0 +1,30 @@
+.originals-page-main-div {
+    background-color: #1D1D1F;
+    min-height: 45rem;
+    padding: 3rem 6%;
+    position: relative;
+}
+
+.original-work-embed {
+    width: 70%;
+    background-image: url(../Partials/Images/double-spinners.svg);
+    background-size: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 576px) {
+    .original-work-embed {
+        width: 100%;
+    }
+}
+
+.originals-page-animo-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+    width: 100%;
+    height: 50rem;
+    opacity: 0.4 !important;
+}

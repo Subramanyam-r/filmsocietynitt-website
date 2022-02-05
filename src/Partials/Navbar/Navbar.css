@@ -1,0 +1,46 @@
+.navbar-main {
+    background-color: #181818;
+    padding: 0.7rem 0 0.7rem 6%;
+    margin: 0;
+    position: relative;
+    z-index: 2;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.212);
+}
+
+.navlink {
+    margin-right: 2.5rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.navlink:hover {
+    color: #b3beff;
+    text-decoration: none;
+}
+
+.navlink.active {
+    color: #566FFF;
+}
+
+.fsoc-brand-logo {
+    height: 2.3rem;
+}
+
+.navbar-text-items {
+    font-size: 1.1rem;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+@media (max-width: 768px) {
+    .navbar-main {
+        padding: 0.4rem 0 0.4rem 6%
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-master-div {
+        height: 4rem;
+    }
+}

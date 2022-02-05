@@ -1,0 +1,14 @@
+.offscreen-speaker-videos-main-div {
+    padding: 3rem 6%;
+}
+
+.offscreen-page-video-div {
+    background-image: url(../../Partials/Images/double-spinners.svg);
+    background-size: 20%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.offscreen-speaker-videos-description-p {
+    font-size: 1.2rem;
+}

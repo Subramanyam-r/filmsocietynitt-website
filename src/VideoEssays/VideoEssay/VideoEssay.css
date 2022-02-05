@@ -1,0 +1,44 @@
+.video-essay-card {
+    background-color: #181818;
+    min-height: 15rem;
+    border-radius: 20px;
+    overflow: hidden;
+    filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.479));
+}
+
+.video-essay-card-holder-col {
+    padding: 0 2rem;
+}
+
+.video-essay-card-p {
+    font-size: 1.1rem;
+    height: 7.5rem;
+    overflow: scroll;
+}
+
+.videoessaycard-thumbnail {
+    position: relative;
+    background-color: #181818;
+    background-size: 10rem 10rem;
+    width: 100%;
+    min-height: 13rem;
+    object-fit: cover;
+    background-image: url(../../Partials/Images/double-spinners.svg);
+    background-size: 5rem;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.video-essay-card-p::-webkit-scrollbar-thumb {
+    background: #566FFF;
+    border-radius: 10px;
+    display: none;
+}
+
+.video-essay-card-p::-webkit-scrollbar {
+    width: 2px;
+}
+
+.video-essay-card-p::-webkit-scrollbar-corner {
+    background: none;
+}

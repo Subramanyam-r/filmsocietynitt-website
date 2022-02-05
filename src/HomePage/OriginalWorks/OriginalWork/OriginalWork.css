@@ -1,0 +1,39 @@
+.original-work-div {
+    background-color: #181818;
+    border-radius: 25px;
+    overflow: hidden;
+    width: 21rem;
+    margin-bottom: 2rem;
+    filter: drop-shadow(3px 3px 6px rgba(0, 0, 0, 0.479));
+}
+
+.original-work-card-col:hover {
+    text-decoration: none;
+}
+
+.original-work-card-thumbnail {
+    height: 11rem;
+    object-fit: cover;
+    width: 21rem;
+    z-index: 1;
+}
+
+.original-work-content-holder {
+    padding: 0.3rem 1rem 1rem;
+}
+
+.original-work-description-p {
+    min-height: 6rem;
+}
+
+@media (max-width: 1200px) {
+    .original-work-div {
+        width: 22rem;
+        margin-bottom: 4rem;
+    }
+
+    .original-work-card-thumbnail {
+        height: 10rem;
+        width: 22rem;
+    }
+}

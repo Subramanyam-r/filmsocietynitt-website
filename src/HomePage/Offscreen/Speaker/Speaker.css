@@ -1,0 +1,10 @@
+.offscreen-speaker-img {
+    height: 10rem;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+}
+
+.offscreen-speaker-role {
+    font-size: 1.3rem;
+    font-weight: 500;
+}

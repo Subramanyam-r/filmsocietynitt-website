@@ -1,0 +1,80 @@
+.offscreen-page-main-div {
+    background-color: #1D1D1F;
+    min-height: 45rem;
+    position: relative;
+}
+
+.offscreen-landing-div {
+    min-height: 45rem;
+}
+
+.offscreen-topright-vector {
+    width: 30rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+    transition: width 0.4s ease-in-out;
+}
+
+.offscreen-bottomleft-vector {
+    width: 30rem;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.4s ease-in-out;
+}
+
+.offscreen-title-holder {
+    text-align: center;
+    padding: 17rem 0 0;
+    position: relative;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../fonts/wildest-grass-demo.regular.otf);
+}
+
+.offscreen-title-offscreen {
+    font-family: myFirstFont;
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.offscreen-title-masterclass {
+    font-size: 1.7rem;
+}
+
+@media (max-width: 1200px) {
+    .offscreen-topright-vector {
+        width: 20rem;
+    }
+    
+    .offscreen-bottomleft-vector {
+        width: 20rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .offscreen-topright-vector {
+        width: 15rem;
+    }
+    
+    .offscreen-bottomleft-vector {
+        width: 15rem;
+    }
+
+    .offscreen-title-holder {
+        padding: 18rem 0 0;
+    }
+}
+
+.offscreen-interviews-main-div {
+    background-color: #181818;
+    min-height: 45rem;
+}
+
+.offscreen-page-description {
+    font-size: 1.3rem;
+    margin: 0 6%;
+}

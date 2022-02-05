@@ -1,38 +1,74 @@
-.App {
-  text-align: center;
+body {
+    background-color: rgb(228, 228, 228);
+    font-family: Roboto;
+    padding: 0;
+    position: relative;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+html, body {
+    overflow-x: hidden;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  body {
+    position: relative;
+    overflow-y: hidden;
   }
-  to {
-    transform: rotate(360deg);
-  }
+
+.tcol-themeblue {
+    color: #566FFF;
+}
+
+.bg-themeblue {
+    background-color: #566FFF;
+}
+
+.tcol-white {
+    color: white;
+}
+
+.tcol-black {
+    color: black;
+}
+
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-500 {
+    font-weight: 500;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+
+.fw-900 {
+    font-weight: 900;
+}
+
+.fs-1-1 {
+    font-size: 1.1rem;
+}
+
+.fs-1-2 {
+    font-size: 1.2rem;
+}
+
+.fs-1-3 {
+    font-size: 1.3rem;
+}
+
+.fs-1-4 {
+    font-size: 1.4rem;
+}
+
+.fs-1-5 {
+    font-size: 1.5rem;
+}
+
+.hr-pale {
+    border-color: rgba(255, 255, 255, 0.164);
+}
+
+.tcol-pale {
+    color: #9E9E9E;
 }

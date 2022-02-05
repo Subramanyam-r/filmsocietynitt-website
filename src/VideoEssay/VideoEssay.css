@@ -1,0 +1,21 @@
+.video-essay-individual-main-div {
+    background-color: #1d1d1f;
+    padding: 3rem 17% 3rem;
+    position: relative;
+    min-height: 46rem;
+}
+
+@media (max-width: 992px) {
+    .video-essay-individual-main-div {
+        padding: 5rem 6% 0;
+    }
+}
+
+.video-player-description {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.like-button {
+    font-size: 1.7rem;
+}

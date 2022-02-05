@@ -1,0 +1,21 @@
+.loading-screen-svg {
+    width: 100%;
+}
+
+.loading-page-fsoc-logo {
+    position: absolute;
+    width: 15rem;
+    top: 20rem;
+    right: 50%;
+    margin-right: -7.5rem;
+}
+
+.loading-screen-main-div {
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.loading-page-fsoc-logo {
+    animation: rubberBand 1s infinite;
+}
